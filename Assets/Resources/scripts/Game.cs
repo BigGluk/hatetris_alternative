@@ -119,7 +119,7 @@ public class Game : MonoBehaviour {
     }
     public void SpawnNextTetromino()
     {
-        GameObject nextTetromino = (GameObject)Instantiate(Resources.Load(GetRandomTetromino(),typeof(GameObject)), new Vector2(4.0f, 21.0f), Quaternion.identity);
+        GameObject nextTetromino = (GameObject)Instantiate(Resources.Load(GetRandomTetromino(),typeof(GameObject)), new Vector2(4.0f, 19.0f), Quaternion.identity);
     }
     public bool CheckInsideGrid(Vector2 pos) {
         return ((int)pos.x >= 0 && (int)pos.x < gridWidth && (int)pos.y > 0);

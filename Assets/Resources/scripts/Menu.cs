@@ -8,6 +8,6 @@ public class Menu : MonoBehaviour {
     }
     public void SkinsButton()
     {
-
+        Application.LoadLevel(2);
     }
 }

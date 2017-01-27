@@ -123,6 +123,5 @@ public class Tetromino : MonoBehaviour {
         return rotation;
     }
 
-  
     
 }
